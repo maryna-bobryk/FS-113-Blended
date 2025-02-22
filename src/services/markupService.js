@@ -1,4 +1,4 @@
-function productTempates(prod) {
+export function productTempate(prod) {
   const markup = `<div>
     <img src="${prod.thumbnail}" alt="${prod.title}" />
     <p>${prod.title}</p>
@@ -9,5 +9,5 @@ function productTempates(prod) {
 }
 
 export function productsTempates(products) {
-  return products.map(productTempates).join('');
+  return products.map(productTempate).join('');
 }
