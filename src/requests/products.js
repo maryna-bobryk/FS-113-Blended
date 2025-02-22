@@ -9,3 +9,8 @@ export async function queryApiProduct(query) {
   const response = await apiInstance.get(`/products/${query}`);
   return response.data;
 }
+
+export async function sendProduct(productData) {
+  const data = await apiInstance.post('/products/add', productData);
+  return data;
+}

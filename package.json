@@ -6,7 +6,9 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build --base=/FS-113-Blended/",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "start": "vite --host",
+    "push": "node commit.js"
   },
   "devDependencies": {
     "glob": "^8.1.0",
