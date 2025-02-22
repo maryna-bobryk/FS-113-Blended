@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build --base=/dummyjson-tasks/",
+    "build": "vite build --base=/FS-113-Blended/",
     "preview": "vite preview"
   },
   "devDependencies": {
